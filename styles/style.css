@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* This ensures padding does not affect the total width of elements */
+  }
+  a {  
+    text-decoration: none;
+    color: black;
+}
+  
+.block1 {
+    margin: 0 auto; /* Center the block if you specify a width */
+    padding: 20px; /* Add some padding inside the block */
+    /* Add more styling as needed */
+    background-color: brown;
+    width: 100vw; /* 100% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .navbar {
+    width: 100%; /* Full width */
+    color: white; /* White text color */
+    padding: 10px 0; /* Some vertical padding */
+    position: fixed; /* Fix the navbar at the top of the page */
+    top: 0; /* Align the top edge of the navbar with the top of the viewport */
+    left: 0; /* Align the left edge of the navbar with the left of the viewport */
+    z-index: 1000; /* Ensure navbar stays on top of other content */
+    display: flex;
+    justify-content: space-around; /* Distribute navigation links */
+    align-items: center;
+  }
+.h1 {
+    display: flex;
+    position: fixed;
+    align-items: center;}
