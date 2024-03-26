@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* This ensures padding does not affect the total width of elements */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(176, 28, 28);
+}
+
+.block1 {
+  display: block;
+  /* width: 1920px; */
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  /* max-width: 1920px; */
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  overflow: hidden;
+  /* Ensures the content is contained within the navbar */
+  position: fixed;
+  /* Fix position to the top of the page */
+  top: 0;
+  /* Align the top edge of the navbar with the top of the viewport */
+  width: 100%;
+  /* Full width */
+  z-index: 1000;
+  /* Ensure navbar stays on top of other content */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 30px 50px;
+  gap: 50px;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  margin-right: 0;
+}
+
+/* .welcome { position: fixed;
+  top: 10px;
+  left: 50px;
+  margin: 0; */
+
+/* } */
+
+.footer {
+  display: flex;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  justify-content: center;
+}
+
+
+/* body {display: flex;
+  flex-direction: column;}
+  .p1 {display: flex;
+  justify-content: center;} */
+
+
+
+
+.container1 {
+  position: fixed;
+  top: 30px;
+  left: 50px;
+  margin: 0;
+}
+
+.image1 img {
+  width: 1000px;
+}
+
+.background-image {
+  /* Use the image as background */
+  background-image: url('../jpg/nyc.png');
+  /* Cover the entire size of the container */
+  background-size: cover;
+  /* Center the background image */
+  background-position: center;
+  /* Do not repeat the image */
+  background-repeat: no-repeat;
+  /* Set a specific height or it will be as tall as its content */
+  /* height: 100vh; 100% of the viewport height */
+  /* Add some padding inside the div */
+  padding: 20px;
+  /* Add some text color */
+  color: red;
+  /* Center the text */
+  text-align: center;
+  /* Display flex to center content vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 1000px; */
+}
+
+.background-image_0 {
+  /* Use the image as background */
+  background-image: url('../jpg/SH030.png');
+  /* Cover the entire size of the container */
+  background-size: cover;
+  /* Center the background image */
+  background-position: center;
+  /* Do not repeat the image */
+  background-repeat: no-repeat;
+  /* Set a specific height or it will be as tall as its content */
+  /* height: 100vh; 100% of the viewport height */
+  /* Add some padding inside the div */
+  padding: 20px;
+  /* Add some text color */
+  color: red;
+  /* Center the text */
+  text-align: center;
+  /* Display flex to center content vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* width: 100%; */
+}
+
+/* ask chatgpt, background img responsive */
+/* ask chatgpt, font size responsive */
